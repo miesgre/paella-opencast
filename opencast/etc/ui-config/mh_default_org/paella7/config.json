@@ -620,6 +620,10 @@
                 "2": "${metadata.series} - ${metadata.seriestitle}",
                 "3": "${metadata.presenters}"
             }
+        },
+
+        "org.opencast.paella.onboarding": {
+            "enabled": true
         }
     }
 }
