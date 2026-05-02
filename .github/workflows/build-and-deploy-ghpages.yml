@@ -50,7 +50,7 @@ jobs:
           sed -i 's#/ui/config/paella8/#/paella-opencast/demo/engage/config/#g' artifact-root/demo/engage/config/config.json
 
       - name: Upload as artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v5
         with:
           path: artifact-root
 
