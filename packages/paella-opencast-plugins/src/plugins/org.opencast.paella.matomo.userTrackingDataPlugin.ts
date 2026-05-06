@@ -15,7 +15,7 @@ export default class OpencastMatomoUserTrackingDataPlugin extends MatomoUserTrac
     }
 
     get name() {
-        return super.name || 'org.opencast.paella.matomo.userTrackingDataPlugin';
+        return 'org.opencast.paella.matomo.userTrackingDataPlugin';
     }
 
      
