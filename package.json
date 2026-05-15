@@ -38,16 +38,16 @@
     "doc"
   ],
   "devDependencies": {
-    "@changesets/changelog-github": "^0.6.0",
+    "@changesets/changelog-github": "^0.7.0",
     "@changesets/cli": "^2.31.0",
     "@estruyf/github-actions-reporter": "^1.12.0",
-    "@playwright/test": "^1.59.1",
+    "@playwright/test": "^1.60.0",
     "@testing-library/dom": "^10.4.1",
-    "@vitest/coverage-v8": "^4.1.5",
+    "@vitest/coverage-v8": "^4.1.6",
     "@vitest/ui": "^4.1.5",
     "jsdom": "^29.1.1",
     "playwright": "^1.59.1",
-    "turbo": "^2.9.6",
+    "turbo": "^2.9.14",
     "vitest": "^4.1.5"
   },
   "dependencies": {
