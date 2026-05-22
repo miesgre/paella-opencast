@@ -56,9 +56,9 @@ jobs:
         id: check_tag
         # _if: steps.changesets.outputs.published == 'true'
         run: |
-          if git tag --points-at HEAD | grep -q "engage-paella-player@"; then
+          if git tag --points-at HEAD | grep -q "@asicupv/engage-paella-player@"; then
             echo "is_released=true" >> $GITHUB_OUTPUT
-            TAG_NAME=$(git tag --points-at HEAD | grep "engage-paella-player@" | head -n 1)
+            TAG_NAME=$(git tag --points-at HEAD | grep "@asicupv/engage-paella-player@" | head -n 1)
             echo "tag_name=$TAG_NAME" >> $GITHUB_OUTPUT
             echo "Engage Player tagged for release: $TAG_NAME"
           else
