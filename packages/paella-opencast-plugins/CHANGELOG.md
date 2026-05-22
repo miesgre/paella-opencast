@@ -1,5 +1,11 @@
 # @asicupv/paella-opencast-plugins
 
+## 2.0.4
+
+### Patch Changes
+
+- [#106](https://github.com/polimediaupv/paella-opencast/pull/106) [`f1d88bd`](https://github.com/polimediaupv/paella-opencast/commit/f1d88bdbc3d5634009d7aa79546e8b0105c2375a) Thanks [@miesgre](https://github.com/miesgre)! - Fix issue [#103](https://github.com/polimediaupv/paella-opencast/issues/103). Opencast matomo plugin was not registered correctly.
+
 ## 2.0.3
 
 ### Patch Changes
