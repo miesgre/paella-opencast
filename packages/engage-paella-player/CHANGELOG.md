@@ -1,5 +1,11 @@
 # @asicupv/engage-paella-player
 
+## 8.0.3
+
+### Patch Changes
+
+- [#117](https://github.com/polimediaupv/paella-opencast/pull/117) [`65ac360`](https://github.com/polimediaupv/paella-opencast/commit/65ac360b4ff0851fcf23ea39528f582dce262f20) Thanks [@miesgre](https://github.com/miesgre)! - Moved paella dependencies to devDependencies.
+
 ## 8.0.2
 
 ### Patch Changes
