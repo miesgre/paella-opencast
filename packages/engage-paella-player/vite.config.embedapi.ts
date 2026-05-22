@@ -6,7 +6,7 @@ import { createRequire } from 'node:module'
 
 
 const require = createRequire(import.meta.url)
-const pkgPaellaOpencastComponentPath = path.dirname(require.resolve('@asicupv/paella-opencast-component')) 
+const pkgPaellaOpencastComponentPath = path.dirname(require.resolve('@asicupv/paella-opencast-component'))
 
 export default defineConfig({
   resolve: { alias: { src: path.resolve('src/') } },
@@ -27,11 +27,13 @@ export default defineConfig({
       targets: [
         {
           src: normalizePath(path.resolve(pkgPaellaOpencastComponentPath, 'paella-opencast-component.iife.*')),
-          dest: '.'
+          dest: '.',
+          rename: { stripBase: true }
         },
         {
           src: normalizePath(path.resolve(pkgPaellaOpencastComponentPath, 'paella-opencast-component.css')),
-          dest: '.'
+          dest: '.',
+          rename: { stripBase: true }
         }
       ]
     })
