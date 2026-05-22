@@ -38,7 +38,7 @@
     "@asicupv/paella-slide-plugins": "^2.6.1",
     "@asicupv/paella-video-plugins": "^2.5.2",
     "@asicupv/paella-webgl-plugins": "^2.4.1",
-    "@asicupv/paella-zoom-plugin": "^2.5.3",    
+    "@asicupv/paella-zoom-plugin": "^2.5.3",
     "@tailwindcss/vite": "^4.3.0",
     "express": "^5.2.1",
     "tailwindcss": "^4.3.0",
