@@ -1,8 +1,8 @@
 {
   "name": "@asicupv/engage-paella-player",
-  "version": "8.0.1",  
+  "version": "8.0.2",
   "type": "module",
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/polimediaupv/paella-opencast"
   },
@@ -15,7 +15,7 @@
     "dist/*",
     "ui/*",
     "README.md"
-  ],  
+  ],
   "scripts": {
     "dev": "vite",
     "build:ghpages": "USE_OC_SERVER_FROM_URL=true OC_PAELLA8_BASE_URL='/paella-opencast' OC_PRESENTATION_URL='https://develop.opencast.org' CONFIG_FOLDER='https://polimediaupv.github.io/paella-opencast/config/' OC_PAELLA8_URL_TEMPLATE='/paella-opencast/watch.html?id={videoId}&ocServer={OC_PRESENTATION_URL}' vite build",
@@ -35,9 +35,9 @@
     "vite-plugin-static-copy": "^4.1.0"
   },
   "dependencies": {
-    "@asicupv/paella-opencast-component": "2.0.3",
-    "@asicupv/paella-opencast-core": "2.0.3",
-    "@asicupv/paella-opencast-plugins": "2.0.3",
+    "@asicupv/paella-opencast-component": "2.0.4",
+    "@asicupv/paella-opencast-core": "2.0.4",
+    "@asicupv/paella-opencast-plugins": "2.0.4",
     "@asicupv/paella-opencast-skin": "2.0.1",
     "@asicupv/paella-ai-plugins": "^2.8.2",
     "@asicupv/paella-basic-plugins": "^2.6.1",

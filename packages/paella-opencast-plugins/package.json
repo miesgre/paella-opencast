@@ -1,6 +1,6 @@
 {
   "name": "@asicupv/paella-opencast-plugins",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "type": "module",
   "repository": {
     "type": "git",
@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@asicupv/paella-extra-plugins": "^2.9.1",
-    "@asicupv/paella-opencast-core": "^2.0.3",
+    "@asicupv/paella-opencast-core": "^2.0.4",
     "@asicupv/paella-user-tracking": "^2.4.2",
     "typescript": "^6.0.3",
     "vite": "^8.0.14",
