@@ -91,11 +91,11 @@ jobs:
       - name: Build Engage Player
         run: |
             npm run build:libs
-            npm run build -w examples/engage-paella-player
+            npm run build -w packages/engage-paella-player
 
       - name: Create Zip
         run: |
-          cd examples/engage-paella-player/dist
+          cd packages/engage-paella-player/dist
           zip -r ../../../engage-paella-player-build.zip .
 
       - name: Upload Asset to GitHub Release

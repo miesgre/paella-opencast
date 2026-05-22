@@ -6,7 +6,7 @@
     "node": ">=22.13.0"
   },
   "homepage": "https://paellaplayer.upv.es/",
-  "packageManager": "npm@11.12.1",
+  "packageManager": "npm@11.15.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/polimediaupv/paella-opencast"
@@ -17,14 +17,14 @@
     "opencast"
   ],
   "scripts": {
-    "dev:engage": "turbo dev --filter=engage-paella-player...",
+    "dev:engage": "turbo dev --filter=@asicupv/engage-paella-player...",
     "dev:libs": "turbo dev --filter=\"./packages/*\"",
     "build:libs": "turbo build --filter=\"./packages/*\"",
     "build": "turbo build",
     "lint": "turbo lint",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
-    "test:e2e": "turbo run test:e2e --filter=engage-paella-player",
+    "test:e2e": "turbo run test:e2e --filter=@asicupv/engage-paella-player",
     "clean:build": "turbo clean:build && rimraf .turbo coverage",
     "clean:deps": "rimraf node_modules",
     "changeset:add": "changeset add",
@@ -43,12 +43,12 @@
     "@estruyf/github-actions-reporter": "^1.12.0",
     "@playwright/test": "^1.60.0",
     "@testing-library/dom": "^10.4.1",
-    "@vitest/coverage-v8": "^4.1.6",
-    "@vitest/ui": "^4.1.5",
+    "@vitest/coverage-v8": "^4.1.7",
+    "@vitest/ui": "^4.1.7",
     "jsdom": "^29.1.1",
-    "playwright": "^1.59.1",
+    "playwright": "^1.60.0",
     "turbo": "^2.9.14",
-    "vitest": "^4.1.5"
+    "vitest": "^4.1.7"
   },
   "dependencies": {
     "rimraf": "^6.1.3"
