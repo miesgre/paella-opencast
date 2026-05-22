@@ -95,9 +95,8 @@ jobs:
 
       - name: Create Zip
         run: |
-          cd packages/engage-paella-player/dist
-          zip -r ../../../engage-paella-player-build.zip .
-
+          cd packages/engage-paella-player
+          zip -r ../../engage-paella-player-build.zip dist/ ui/
       - name: Upload Asset to GitHub Release
         uses: softprops/action-gh-release@v3
         with:          
