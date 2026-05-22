@@ -35,7 +35,7 @@
     "clean:deps": "rimraf node_modules"
   },
   "devDependencies": {
-    "@asicupv/paella-core": "^2.12.8",
+    "@asicupv/paella-core": "^2.12.9",
     "typescript": "^6.0.3",
     "vite": "^8.0.13",
     "vite-plugin-dts": "^5.0.1"
